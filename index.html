@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>白嫖君的分享</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url('https://w.wallhaven.cc/full/o3/wallhaven-o3km89.png');
+            background-size: cover;
+            color: #333;
+        }
+        h1 {
+            margin-bottom: 50px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        a:hover {
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        #reward {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+        }
+        #reward img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+    </style>
+    <script>
+        function showReward() {
+            document.getElementById('reward').style.display = 'flex';
+        }
+        function hideReward() {
+            document.getElementById('reward').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <h1>白嫖君的分享</h1>
+    <a href="https://freegpt.bjp666.link/#/" target="_blank">白嫖君自己搭建的免费gpt4</a>
+    <a href="http://wxblog.xyz/chat/index.html#/" target="_blank">快乐快乐开发的免费gpt4</a>
+    <a href="https://chat.zhile.io/auth/login?v=5" target="_blank">潘多拉</a>
+    <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=g2bz_gB3bGZ6IfQVE-xU1XT-RNeVNt2l&authKey=IsoxTvKo4%2BxhK2BW44MZtM8YNZKfqQ4O0cz7YsqAjDgeoTY8XEtGeVoMgByU9sK0&noverify=0&group_code=183807510" target="_blank">白嫖君分享QQ群</a>
+    <a href="#" onclick="showReward()">打赏</a>
+    <div id="reward" onclick="hideReward()">
+        <img src="https://raw.githubusercontent.com/superhayaren/spvip.github.io/main/20230721112951.jpg">
+    </div>
+</body>
+</html>
